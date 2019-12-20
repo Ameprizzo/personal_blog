@@ -86,4 +86,12 @@ body {
    grid-area: main;
    background-color: #4285f4;
    margin: 5px;
+   margin-top: 0;
+ }
+
+ .side-bar{
+   grid-area: side;
+   background-color: #4285f4;
+   margin-top: 0;
+   margin: 5px;
  }

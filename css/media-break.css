@@ -11,6 +11,18 @@
     .topnav input[type=text] {
       border: 1px solid #ccc;  
     }
+
+    .grid-container{
+      display: grid;
+      
+      grid-template-areas: "header header header"
+                            "logo logo logo"
+                           "main main main"
+                           "side side side"
+                           "subscribe subscribe subscribe"
+                           "footer footer footer";
+      grid-gap: 0px;
+  }
     .letter {
         margin-top: 0.4em;
         margin-bottom: 0em;
