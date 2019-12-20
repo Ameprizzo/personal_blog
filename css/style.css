@@ -17,7 +17,8 @@ body {
 }
 .logo{
   grid-area: logo;
-  margin: 0;
+  margin: 5px;
+  margin-top: 0;
 }
 
 
@@ -39,7 +40,7 @@ body {
   display: inline-block;
   -webkit-transform: translate3d(0, 0, 0);
           transform: translate3d(0, 0, 0);
-  margin-top: 0.6em;
+  margin-top: 0.5em;
   text-shadow: rgba(0, 0, 0, 0.4) 0 0 0.05em;
   font-family: 'Abril Fatface', cursive;
   font: normal bold 4rem 'Abril Fatface', cursive;
@@ -81,3 +82,8 @@ body {
     text-shadow: rgba(0, 0, 0, 0.4) 0 1em 0.35em;
   }
 }
+ .main-content{
+   grid-area: main;
+   background-color: #4285f4;
+   margin: 5px;
+ }
