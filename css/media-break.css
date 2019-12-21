@@ -13,7 +13,8 @@
 }
 }
 
-@media screen and (max-width: 600px) {
+
+  @media screen and (max-width: 600px) {
     .topnav a, .topnav input[type=text] {
       float: none;
       display: block;
@@ -26,7 +27,7 @@
       border: 1px solid #ccc;  
     }
    header{
-     position: none;
+     position: relative;
    }
     
     .letter {
@@ -38,6 +39,9 @@
       }
     .main-content, .side-bar{
       margin: 5px;
+      margin-top: 0px;
+    }
+    .logo{
       margin-top: 0px;
     }
   }
