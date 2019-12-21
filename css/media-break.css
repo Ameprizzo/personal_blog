@@ -1,4 +1,18 @@
 
+@media screen and (max-width: 800px) {
+  .grid-container{
+    display: grid;
+    
+    grid-template-areas: "header header header"
+                          "logo logo logo"
+                         "main main main"
+                         "side side side"
+                         "subscribe subscribe subscribe"
+                         "footer footer footer";
+    grid-gap: 0px;
+}
+}
+
 @media screen and (max-width: 600px) {
     .topnav a, .topnav input[type=text] {
       float: none;
@@ -11,23 +25,19 @@
     .topnav input[type=text] {
       border: 1px solid #ccc;  
     }
-
-    .grid-container{
-      display: grid;
-      
-      grid-template-areas: "header header header"
-                            "logo logo logo"
-                           "main main main"
-                           "side side side"
-                           "subscribe subscribe subscribe"
-                           "footer footer footer";
-      grid-gap: 0px;
-  }
+   header{
+     position: none;
+   }
+    
     .letter {
-        margin-top: 0.4em;
+        margin-top: 0em;
         margin-bottom: 0em;
         text-shadow: rgba(0, 0, 0, 0.4) 0 0 0.05em;
         font-family: 'Abril Fatface', cursive;
         font: normal bold 3.3rem 'Abril Fatface', cursive;
       }
+    .main-content, .side-bar{
+      margin: 5px;
+      margin-top: 0px;
+    }
   }
