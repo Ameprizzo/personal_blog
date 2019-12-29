@@ -59,52 +59,16 @@ footer{
 }
 
 .letter {
-  /*
-  -webkit-animation: bounce 0.75s cubic-bezier(0.05, 0, 0.2, 1) infinite alternate;
-          animation: bounce 0.75s cubic-bezier(0.05, 0, 0.2, 1) infinite alternate;
-  display: inline-block;
-  -webkit-transform: translate3d(0, 0, 0);
-          transform: translate3d(0, 0, 0);
-  margin-top: 0.5em;*/
   text-shadow: rgba(0, 0, 0, 0.4) 0 0 0.05em;
   font-family: 'Abril Fatface', cursive;
   font: normal bold 4rem 'Abril Fatface', cursive;
 }
 .letter:nth-child(1) {
-  -webkit-animation-delay: 0s;
-          animation-delay: 0s;
   color: #4285f4;
 }
 .letter:nth-child(2) {
-  -webkit-animation-delay: 0.0833333333s;
-          animation-delay: 0.0833333333s;
   color: #ea4335;
 }
 
 
-@-webkit-keyframes bounce {
-  0% {
-    -webkit-transform: translate3d(0, 0, 0);
-            transform: translate3d(0, 0, 0);
-    text-shadow: rgba(0, 0, 0, 0.4) 0 0 0.05em;
-  }
-  100% {
-    -webkit-transform: translate3d(0, -1em, 0);
-            transform: translate3d(0, -1em, 0);
-    text-shadow: rgba(0, 0, 0, 0.4) 0 1em 0.35em;
-  }
-}
-
-@keyframes bounce {
-  0% {
-    -webkit-transform: translate3d(0, 0, 0);
-            transform: translate3d(0, 0, 0);
-    text-shadow: rgba(0, 0, 0, 0.4) 0 0 0.05em;
-  }
-  100% {
-    -webkit-transform: translate3d(0, -1em, 0);
-            transform: translate3d(0, -1em, 0);
-    text-shadow: rgba(0, 0, 0, 0.4) 0 1em 0.35em;
-  }
-}
 
