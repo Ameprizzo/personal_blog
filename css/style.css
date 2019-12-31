@@ -78,7 +78,7 @@ footer{
 	width: 100%;
 	font: bold 16px sans-serif;
 	text-align: left;
-	padding: 50px 60px 40px;
+	padding: 10px 60px 40px;
 	overflow: hidden;
 }
 
@@ -86,7 +86,7 @@ section {
   width: 100%;
   display: inline-block;
   background: #ccc;
-  height: 60vh;
+  
   text-align: center;
   font-size: 22px;
   font-weight: 700;
@@ -250,7 +250,7 @@ section {
 
 	.footer-distributed form input,
 	.footer-distributed form textarea{
-		width: 250px;
+		width: 290px;
 	}
 
 	.footer-distributed form button{
@@ -288,4 +288,58 @@ section {
 		float: none;
 	}
 }
+side__box--2-content {
+	display: flex;
+	flex-direction: column;
+	margin: 0 auto;
+	text-align: center;
+	justify-content: center;
+	padding: 1em 0;
+  }
 
+  .side__box--2-content .social-media {
+	display: flex;
+	justify-content: center;
+	margin: 23px;
+  }
+.social-media--list {
+	color: lightgrey;
+	list-style: none;
+	cursor: pointer;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	line-height: 40px;
+	font-size: 2em;
+	margin: 12px;
+  }
+  .social-media--list--facebook {
+	background-color: #3b5998;
+  }
+  .social-media--list--twitter {
+	background-color: #00acee;
+  }
+  .social-media--list-instagram {
+	background-color: #f77737;
+  }
+  .social-media--list-skype {
+	background-color: #00aff0;
+  }
+  .social-media--list-snapchat {
+	background-color: #fffc00;
+	color: #fff;
+  }
+  .poster-info {
+	font-size: 0.9em;
+	color: #999999;
+	margin-top: 1.6em;
+	padding-left: 0.6em;
+  }
+ 
+  .poster-info span {
+	color: darkcyan;
+  }
+  .fa {
+	margin: 6px;
+  }
+  
